@@ -1,41 +1,14 @@
-{% extends 'base.html' %}
+{% extends 'prop_mang/base.html' %}
 {% load static %}
+<!DOCTYPE html>
 {% block title %}
-  Home
+Home
 {% endblock %}
 
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Oswald:400,700"> 
-    <link rel="stylesheet" href="{% static 'prop_mang/fonts/icomoon/style.css' %}">
-
-    <link rel="stylesheet" href="{% static  'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/magnific-popup.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/jquery-ui.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/owl.carousel.min.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/owl.theme.default.min.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/bootstrap-datepicker.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/mediaelementplayer.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/animate.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/fonts/flaticon/font/flaticon.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/fl-bigmug-line.css' %}">
-  
-    <link rel="stylesheet" href="{% static  'prop_mang/css/aos.css' %}">
-    <link rel="stylesheet" href="{% static  'prop_mang/css/style.css' %}">
-
 {% block content %}
-  
-  <div class="site-wrap">
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
     
-    <div class="site-blocks-cover overlay" style="background-image: url('{% static 'images/hero_bg_2.jpg' %}');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
+    <div class="site-blocks-cover overlay" style="background-image: url('{% static  'prop_mang/images/hero_bg_2.jpg' %}');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
@@ -50,7 +23,7 @@
 
     <div class="container">
       <div class="featured-property-half d-flex">
-        <div class="image" style="background-image: url('{% static 'images/hero_bg_1.jpg' %}')"></div>
+        <div class="image" style="background-image: url('{% static  'prop_mang/images/hero_bg_1.jpg' %}')"></div>
         <div class="text">
           <h2>Property Information</h2>
           <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quae obcaecati doloribus distinctio, aliquam vero? Molestias, amet, eveniet.</p>
@@ -78,7 +51,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <a href="#" class="unit-9">
-              <div class="image" style="background-image: url('{% static 'images/img_1.jpg' %}');"></div>
+              <div class="image" style="background-image: url('{% static  'prop_mang/images/img_1.jpg' %}');"></div>
               <div class="unit-9-content">
                 <h2>Nashville</h2>
                 <span>$130/night</span>
@@ -89,7 +62,7 @@
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="unit-9">
-              <div class="image" style="background-image: url('{% static 'images/img_2.jpg' %}');"></div>
+              <div class="image" style="background-image: url('{% static  'prop_mang/images/img_2.jpg' %}');"></div>
               <div class="unit-9-content">
                 <h2>Baltimore</h2>
                 <span>$230/night</span>
@@ -108,6 +81,7 @@
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
             <a href="#" class="unit-9">
               <div class="image" style="background-image: url('{% static 'images/img_4.jpg' %}');"></div>
+              <div class="image" style="background-image: url('{% static  'prop_mang/images/img_4.jpg' %}');"></div>
               <div class="unit-9-content">
                 <h2>Atlanta</h2>
                 <span>$150/night</span>
@@ -139,6 +113,7 @@
 
           <a href="#" class="col1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
             <div class="image" style="background-image: url('{% static 'images/img_2.jpg' %}');"></div>
+            <div class="image" style="background-image: url('{% static  'prop_mang/images/img_2.jpg' %}');"></div>
             <div class="unit-9-content">
               <h2>Baltimore Apartment</h2>
               <span>$600/night</span>
@@ -149,6 +124,7 @@
 
             <a href="#" class="col2-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="200">
               <div class="image" style="background-image: url('{% static 'images/img_3.jpg' %}');"></div>
+              <div class="image" style="background-image: url('{% static  'prop_mang/images/img_3.jpg' %}');"></div>
               <div class="unit-9-content">
                 <h2>Austin Apartment</h2>
                 <span>$290/night</span>
@@ -157,6 +133,7 @@
 
             <a href="#" class="col2-row2 unit-9 no-height" data-aos="fade-up" data-aos-delay="300">
               <div class="image" style="background-image: url('{% static 'images/img_1.jpg' %}');"></div>
+              <div class="image" style="background-image: url('{% static  'prop_mang/images/img_1.jpg' %}');"></div>
               <div class="unit-9-content">
                 <h2>Atlanta Apartment</h2>
                 <span>$1,290/night</span>
@@ -183,7 +160,7 @@
           
           <div class="text-center p-3 p-md-5 bg-white">
             <div class="mb-4">            
-              <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+              <img src="{% static  'prop_mang/images/person_1.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
             </div>
             <div class="text-black">
               <h3 class="font-weight-light h5">Megan Smith</h3>
@@ -194,6 +171,7 @@
           <div class="text-center p-3 p-md-5 bg-white">
             <div class="mb-4">            
               <img src="{% static 'images/person_2.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+              <img src="{% static  'prop_mang/images/person_2.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
             </div>
             <div class="text-black">
               <h3 class="font-weight-light h5">Brooke Cagle</h3>
@@ -204,6 +182,7 @@
           <div class="text-center p-3 p-md-5 bg-white">
             <div class="mb-4">            
               <img src="{% static 'images/person_3.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+              <img src="{% static  'prop_mang/images/person_3.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
             </div>
             <div class="text-black">
               <h3 class="font-weight-light h5">Philip Martin</h3>
@@ -214,6 +193,7 @@
           <div class="text-center p-3 p-md-5 bg-white">
             <div class="mb-4">            
               <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+              <img src="{% static  'prop_mang/images/person_1.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
             </div>
             <div class="text-black">
               <h3 class="font-weight-light h5">Steven Ericson</h3>
@@ -223,7 +203,7 @@
 
           <div class="text-center p-3 p-md-5 bg-white">
             <div class="mb-4">            
-              <img src="images/person_2.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+              <img src="{% static  'prop_mang/images/person_2.jpg' %}" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
             </div>
             <div class="text-black">
               <h3 class="font-weight-light h5">Nathan Dumlao</h3>
